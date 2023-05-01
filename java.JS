@@ -37,6 +37,19 @@ slider.addEventListener('mouseup', () => {
     slider.classList.remove('active');
 });
 
+// 偵測是否有往橫拖動swiper
+$('.swiper-wrapper').scroll(function(){
+    offset = $(this).scrollLeft();
+    if ($(this).scrollLeft() > 1) {
+        $("#arrow-container:not(.scrollarrow)").addClass("scrollarrow");
+   }
+   else
+   {
+       $("#arrow-container.scrollarrow").removeClass("scrollarrow");   
+   }
+});
+
+// 
 var _timer = {};
 function delay_till_last(id, fn, wait) {
     if (_timer[id]) {
