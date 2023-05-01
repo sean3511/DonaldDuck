@@ -859,7 +859,7 @@ img {
     padding-left: 20px;
 }
 .scrolled{
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 99;
     transition: all 0.3s ease 0s;
