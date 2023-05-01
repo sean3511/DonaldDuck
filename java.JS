@@ -50,7 +50,7 @@ function delay_till_last(id, fn, wait) {
     }, wait);
 }
 
-$(".buybtn").click(function(){
+$(".commingsoon_btn").click(function(){
     delay_till_last('id', function() {//注意 id 是唯一的
         $(".comming_soon_popup").fadeIn().css("display","flex").delay(500).fadeOut();
     }, 300);
