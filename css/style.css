@@ -103,7 +103,8 @@ img {
     padding-top: 120px;
 }
 .gRLYfT {
-    color: rgb(12, 123, 171);
+    text-shadow: 0px 2px 4px rgba(255, 255, 255, 0.25);
+    color: rgb(40, 173, 231);
     font-weight: bold;
     line-height: 1.5;
     font-family: 'Bangers', cursive;
@@ -284,7 +285,7 @@ img {
     height: 52px;
     padding: 0px 36px;
     font-size: 18px;
-    background: linear-gradient(270deg, rgb(51, 212, 250) 0%, rgb(23, 243, 221) 100%);
+    background: linear-gradient(270deg, rgb(51, 212, 250) 0%,  rgb(40, 173, 231) 100%);
     color: rgb(14, 19, 33);
     border-radius: 12px;
     overflow: hidden;
@@ -393,7 +394,7 @@ img {
     outline: 0px;
     transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
     font-size: 14px;
-    background: linear-gradient(270deg, rgb(51, 212, 250) 0%, rgb(23, 243, 221) 100%);
+    background: linear-gradient(270deg, rgb(51, 212, 250) 0%, rgb(40, 173, 231) 100%);
     color: rgb(14, 19, 33);
     border-radius: 12px;
     overflow: hidden;
@@ -858,7 +859,7 @@ img {
     padding-left: 20px;
 }
 .scrolled{
-    position: sticky;
+    position: fixed;
     top: 0px;
     z-index: 99;
     transition: all 0.3s ease 0s;
@@ -1007,7 +1008,7 @@ img {
         justify-content: flex-end;
     }
   }
-@media screen and (max-width: 714px){
+@media screen and (max-width: 1024px){
     .page-header{
         border-radius: 0;
     }
